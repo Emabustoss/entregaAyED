@@ -317,7 +317,7 @@ def gestionDeNovedades():
           d- Ver reporte de novedades.
           e- Volver''')
     eleccion = input("Seleccione una opción: ")
-    while eleccion != 'a' or eleccion != 'b' or eleccion != 'c' or eleccion != 'd' or eleccion != 'e':
+    while eleccion != 'a' and eleccion != 'b' and eleccion != 'c' and eleccion != 'd' and eleccion != 'e':
             print("Elección no válida.")
             eleccion = input("Seleccione una opción: ")
     match eleccion:    
